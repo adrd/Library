@@ -1,0 +1,1 @@
+dotnet publish src\Library.ConsoleApp --framework net6.0 --runtime win-x64 --self-contained=true --configuration Release --output .\artifacts /p:PublishSingleFile=true /p:DebugType=None
